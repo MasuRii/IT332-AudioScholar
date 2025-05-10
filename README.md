@@ -202,7 +202,6 @@ cd AudioScholar
 | iOS Mobile Support                   | 🚫 Not yet supported     |
 | Web Audio Recording                  | 🚫 Not yet supported     |
 | Multi-language Support               | 🚫 English only for v1.0 |
-| Background Recording (Free Users)    | 🚫 Not supported         |
 | Recommendation Engine beyond YouTube | 🚫 Future feature        |
 | Premium Subscription Management      | 🚫 Planned               |
 
