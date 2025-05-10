@@ -210,13 +210,13 @@ cd AudioScholar
 
 ## 🎨 Design & Documentation
 
-- **Use Case & Activity Diagrams**: [View on Figma](https://www.figma.com/design/5cqAE14jvnfFDlKbqHObr7/AudioScholar?node-id=24-2315&t=su6Bkd3yHO2aCleY-1)
+- **SPP-AudioScholar**: [View on Gdrive](https://drive.google.com/file/d/164C0kKyHAu2K21TzdWfSacrbVcCLbv4G/view?usp=sharing)
 
-- **Mobile Wireframes**: [View on Figma](https://www.figma.com/design/5cqAE14jvnfFDlKbqHObr7/AudioScholar?node-id=0-1&t=31ZcynnCihbXU6I4-1)  
+- **SRS-AudioScholar**: [View on Gdrive](https://drive.google.com/file/d/12SXvl3IrNELvChfyzh-H0Vdm_G8TWAgL/view?usp=sharing)  
   
-- **Web Wireframes**: [View on Figma](https://www.figma.com/design/5cqAE14jvnfFDlKbqHObr7/AudioScholar?node-id=8-2267&t=31ZcynnCihbXU6I4-1)  
+- **SDD-AudioScholar**: [View on Gdrive](https://drive.google.com/file/d/1deJn8HT5jvbOtMDQgc_ERpWNnxulDxBA/view?usp=sharing)  
   
-- **Database Schema & ER Diagrams**: [View on Figma](https://www.figma.com/design/5cqAE14jvnfFDlKbqHObr7/AudioScholar?node-id=24-2315&t=31ZcynnCihbXU6I4-1)
+- **SPMP-AudioScholar**: [View on Gdrive](https://drive.google.com/file/d/1TVZkGZzky3dSwbXSdUeP-3H1fTHwNqdL/view?usp=sharing)
 
 
 ---
@@ -227,9 +227,11 @@ cd AudioScholar
 - Biacolo, Math Lee L.
 - Terence, John Duterte
 - Orlanes, John Nathan
+- Christian Brent Alpez
+- Claive Justin Barrientos
 
 **Adviser:**
-- Frederick L. Revilleza
+- Ralph P. Laviste
 
 ---
 
