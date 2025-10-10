@@ -77,6 +77,16 @@ public class FirebaseConfig {
         } catch (IOException e) {
             logger.warn("Failed to load credentials from {}: {}", source, e.getMessage());
         }
+        
+        // Try loading from project root .env directory
+        try {
+            String rootEnvPath = "c:/Users/Nathan/Downloads/IT332-AudioScholar/backend/.env";
+            source = "root .env file (" + rootEnvPath + ")";
+            logger.info("Attempting to load Firebase credentials from {}", source);
+            return new FileInputStream(rootEnvPath);
+        } catch (IOException e) {
+            logger.warn("Failed to load credentials from root .env file: {}", e.getMessage());
+        }
 
         logger.error(
                 "Could not locate Firebase credentials via environment variable or classpath.");
