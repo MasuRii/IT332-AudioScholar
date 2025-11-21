@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { API_BASE_URL } from '../../services/authService';
 import { Header } from '../Home/HomePage';
 
-const TERMINAL_STATUSES = ['COMPLETED', 'FAILED', 'PROCESSING_HALTED_UNSUITABLE_CONTENT', 'PROCESSING_HALTED_NO_SPEECH'];
+const TERMINAL_STATUSES = ['COMPLETED', 'FAILED', 'SUMMARY_FAILED', 'PROCESSING_HALTED_UNSUITABLE_CONTENT', 'PROCESSING_HALTED_NO_SPEECH'];
 const UPLOADING_STATUSES = ['UPLOADING_TO_STORAGE', 'UPLOAD_IN_PROGRESS'];
 const UPLOAD_TIMEOUT_SECONDS = 10 * 60;
 
@@ -344,6 +344,7 @@ const RecordingList = () => {
                     isSpinning = true;
                     break;
                 case 'FAILED':
+                case 'SUMMARY_FAILED':
                 case 'PROCESSING_HALTED_NO_SPEECH':
                 case 'PROCESSING_HALTED_UNSUITABLE_CONTENT':
                     bgColor = 'bg-red-100';
