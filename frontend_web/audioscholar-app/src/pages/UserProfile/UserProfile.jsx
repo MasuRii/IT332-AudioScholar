@@ -90,7 +90,7 @@ const UserProfile = () => {
                 className="w-32 h-32 rounded-full border-4 border-white shadow-lg object-cover mb-5"
                 referrerPolicy="no-referrer"
               />
-              <h1 className="text-3xl font-bold mb-1">{`${user?.firstName || ''} ${user?.lastName || ''}`.trim() || 'User Name'}</h1>
+              <h1 className="text-3xl font-bold mb-1">{user?.displayName || `${user?.firstName || ''} ${user?.lastName || ''}`.trim() || 'User Name'}</h1>
               <p className="text-indigo-200 mb-4 text-lg">{user?.email || 'email@example.com'}</p>
               {user?.roles?.includes('ROLE_PREMIUM') ? (
                 <span className="bg-yellow-400 text-yellow-800 text-sm font-semibold px-3 py-1 rounded-full shadow-md">Premium Member</span>
